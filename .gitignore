@@ -1,0 +1,51 @@
+# ========================
+# LARAVEL BACKEND IGNORES
+# ========================
+/myinventory-be/vendor/
+/myinventory-be/node_modules/
+/myinventory-be/npm-debug.log
+/myinventory-be/yarn-error.log
+/myinventory-be/yarn.lock
+/myinventory-be/package-lock.json
+
+# Laravel Environment & Cache
+/myinventory-be/.env
+/myinventory-be/.env.backup
+/myinventory-be/.env.production
+/myinventory-be/.phpunit.cache
+/myinventory-be/bootstrap/cache/
+/myinventory-be/storage/
+!/myinventory-be/storage/app/public/.gitignore
+!/myinventory-be/storage/framework/cache/.gitignore
+!/myinventory-be/storage/framework/sessions/.gitignore
+!/myinventory-be/storage/framework/testing/.gitignore
+!/myinventory-be/storage/framework/views/.gitignore
+!/myinventory-be/storage/logs/.gitignore
+
+# ========================
+# REACT FRONTEND IGNORES
+# ========================
+/myinventory-fe/node_modules/
+/myinventory-fe/build/
+/myinventory-fe/dist/
+/myinventory-fe/.pnp
+/myinventory-fe/.pnp.js
+
+# React Environment
+/myinventory-fe/.env.local
+/myinventory-fe/.env.development.local
+/myinventory-fe/.env.test.local
+/myinventory-fe/.env.production.local
+
+# Logs & Editor
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
